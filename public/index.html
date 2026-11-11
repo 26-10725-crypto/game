@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>판타지 RPG</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <script type="importmap">
+    { "imports": { "three": "/lib/three/build/three.module.js" } }
+  </script>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="hud"><div id="info">로딩 중...</div></div>
+  <div id="joystick"><div id="knob"></div></div>
+  <div id="buttons">
+    <button id="btn-run" type="button">달리기</button>
+    <button id="btn-jump" type="button">점프</button>
+  </div>
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
